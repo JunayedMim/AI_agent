@@ -33,7 +33,7 @@ def main():
         print(f"Response tokens: {generated_content.usage_metadata.candidates_token_count}")
         print(generated_content.text)
     else:
-        print(generated_content)
+        print(generated_content.text)
 
 
 
